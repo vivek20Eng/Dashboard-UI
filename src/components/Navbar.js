@@ -1,6 +1,17 @@
-import React from 'react';
-import { AppBar, Toolbar, IconButton, Typography, Menu, MenuItem, Avatar } from '@mui/material';
-import { Menu as MenuIcon, AccountCircle as AccountCircleIcon } from '@mui/icons-material';
+import React from "react";
+import {
+  AppBar,
+  Toolbar,
+  IconButton,
+  Typography,
+  Menu,
+  MenuItem,
+  Avatar,
+} from "@mui/material";
+import {
+  Menu as MenuIcon,
+  AccountCircle as AccountCircleIcon,
+} from "@mui/icons-material";
 
 const Navbar = ({ onMenuClick }) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -16,12 +27,17 @@ const Navbar = ({ onMenuClick }) => {
   return (
     <AppBar
       position="fixed"
-      style={{ backgroundColor: '#1a1a27' }} 
+      style={{ backgroundColor: "#1e1e2f" }}
       className="shadow-md w-full h-[5rem] justify-center"
     >
       <Toolbar className="flex justify-between items-center">
         <div className="flex items-center">
-          <IconButton edge="start" color="inherit" aria-label="menu" onClick={onMenuClick}>
+          <IconButton
+            edge="start"
+            color="inherit"
+            aria-label="menu"
+            onClick={onMenuClick}
+          >
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
@@ -36,7 +52,6 @@ const Navbar = ({ onMenuClick }) => {
             onClick={handleProfileMenuOpen}
           >
             <Avatar alt="User Name" src="/path/to/profile-pic.jpg" />
-           
           </IconButton>
           <Menu
             anchorEl={anchorEl}
@@ -45,7 +60,7 @@ const Navbar = ({ onMenuClick }) => {
             PaperProps={{
               style: {
                 maxHeight: 48 * 4.5,
-                width: '20ch',
+                width: "20ch",
               },
             }}
           >

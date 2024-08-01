@@ -1,5 +1,12 @@
 # Dashboard
+![Project Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
+- 🌐 demo link: [Live Demo](https://dashboard-ui-seven-ruddy.vercel.app/)
+
+
+# 🪟 UI
+
+![ui](screenshots/1.png) 
 
 ### Prerequisites
 
