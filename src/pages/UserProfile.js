@@ -26,54 +26,58 @@ const UserProfile = () => {
             Edit Profile
           </Typography>
           <Grid container spacing={2}>
-            <Grid item xs={12} sm={6}>
-              <TextField
-                fullWidth
-                label="Company"
-                placeholder="Enter company name"
-                disabled
-                sx={{
-                  input: { color: "white" },
-                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                    borderColor: "#e14eca",
-                  },
-                  "& .MuiInputLabel-root.Mui-focused": {
-                    color: "#e14eca",
-                  },
-                }}
-              />
-            </Grid>
-            <Grid item xs={12} sm={6}>
-              <TextField
-                fullWidth
-                label="Username"
-                placeholder="Enter username"
-                sx={{
-                  input: { color: "white" },
-                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                    borderColor: "#e14eca",
-                  },
-                  "& .MuiInputLabel-root.Mui-focused": {
-                    color: "#e14eca",
-                  },
-                }}
-              />
-            </Grid>
-            <Grid item xs={12} sm={6}>
-              <TextField
-                fullWidth
-                label="Email address"
-                placeholder="Enter email address"
-                sx={{
-                  input: { color: "white" },
-                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                    borderColor: "#e14eca",
-                  },
-                  "& .MuiInputLabel-root.Mui-focused": {
-                    color: "#e14eca",
-                  },
-                }}
-              />
+            <Grid item xs={12}>
+              <Grid container spacing={2}>
+                <Grid item xs={12} sm={4}>
+                  <TextField
+                    fullWidth
+                    label="Company"
+                    defaultValue="Creative Code Inc."
+                    disabled
+                    sx={{
+                      input: { color: "white" },
+                      "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                        borderColor: "#e14eca",
+                      },
+                      "& .MuiInputLabel-root.Mui-focused": {
+                        color: "#e14eca",
+                      },
+                    }}
+                  />
+                </Grid>
+                <Grid item xs={12} sm={4}>
+                  <TextField
+                    fullWidth
+                    label="Username"
+                    placeholder="Enter username"
+                    sx={{
+                      input: { color: "white" },
+                      "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                        borderColor: "#e14eca",
+                      },
+                      "& .MuiInputLabel-root.Mui-focused": {
+                        color: "#e14eca",
+                      },
+                    }}
+                  />
+                </Grid>
+                <Grid item xs={12} sm={4}>
+                  <TextField
+                    fullWidth
+                    label="Email address"
+                    placeholder="Enter email address"
+                    sx={{
+                      input: { color: "white" },
+                      "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                        borderColor: "#e14eca",
+                      },
+                      "& .MuiInputLabel-root.Mui-focused": {
+                        color: "#e14eca",
+                      },
+                    }}
+                  />
+                </Grid>
+              </Grid>
             </Grid>
             <Grid item xs={12} sm={6}>
               <TextField
