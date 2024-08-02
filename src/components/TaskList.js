@@ -37,9 +37,9 @@ const TaskList = () => {
       {tasks.map((task) => (
         <session
           key={task.id}
-          className="flex gap-5 px-6 py-4 border-y w-full border-gray-200/20"
+          className="flex justify-between px-6 py-4 border-y w-full border-gray-200/20"
         >
-          <div class="flex justify-between gap-6">
+          <div class="flex gap-6 w-6/5">
             <input type="checkbox" id={task.id} className="accent-blue-500" />
             <div>
               <h2 className="font-bold text-white text-lg leading-8">
@@ -48,7 +48,7 @@ const TaskList = () => {
               <p className="text-lg font-thin text-white">{task.description}</p>
             </div>
           </div>
-          <div className="flex w-full justify-end items-center cursor-pointer">
+          <div className="flex w-6/1 justify-end items-center cursor-pointer">
 
           <EditIcon style={{ color: "white" }} />
           </div>
