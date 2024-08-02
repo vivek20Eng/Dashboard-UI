@@ -51,7 +51,9 @@ const Navbar = ({ onMenuClick }) => {
             aria-label="account"
             onClick={handleProfileMenuOpen}
           >
-            <Avatar alt="User Name" src="/path/to/profile-pic.jpg" />
+            <Avatar
+              src="https://images.unsplash.com/photo-1601498446313-7a3a7e4c1b78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHByb2ZpbGUlMjBwaWMlMjB3b3JrJTIwc3Rvcnl8ZW58MHx8fDE2NjgxMTU3MTg&ixlib=rb-1.2.1&q=80&w=400"
+            />
           </IconButton>
           <Menu
             anchorEl={anchorEl}

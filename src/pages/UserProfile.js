@@ -270,12 +270,11 @@ const UserProfile = () => {
                   outline: "4px solid #ba54f5",
                 },
               }}
-              alt="John Doe"
-              src="/.jpg"
+              src="https://images.unsplash.com/photo-1601498446313-7a3a7e4c1b78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHByb2ZpbGUlMjBwaWMlMjB3b3JrJTIwc3Rvcnl8ZW58MHx8fDE2NjgxMTU3MTg&ixlib=rb-1.2.1&q=80&w=400"
               tabIndex={0}
             />
             <Typography variant="h5" sx={{ mt: 2, fontWeight: "bold" }}>
-              John Doe
+              user name
             </Typography>
             <Typography variant="subtitle1" sx={{ color: "#e14eca" }}>
               CEO / Co-Founder
