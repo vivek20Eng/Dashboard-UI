@@ -10,7 +10,7 @@
 
 ### Prerequisites
 
-- List any prerequisites that need to be installed (e.g., Node.js, npm).
+- e.g., Node.js, npm.
 
 ### Getting Started
 
