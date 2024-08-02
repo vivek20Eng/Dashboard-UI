@@ -30,73 +30,145 @@ const UserProfile = () => {
               <TextField
                 fullWidth
                 label="Company"
-                defaultValue="Creative Code Inc."
+                placeholder="Enter company name"
                 disabled
-                sx={{ input: { color: "white" } }}
+                sx={{
+                  input: { color: "white" },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "#e14eca",
+                  },
+                  "& .MuiInputLabel-root.Mui-focused": {
+                    color: "#e14eca",
+                  },
+                }}
               />
             </Grid>
             <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label="Username"
-                defaultValue="michael23"
-                sx={{ input: { color: "white" } }}
+                placeholder="Enter username"
+                sx={{
+                  input: { color: "white" },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "#e14eca",
+                  },
+                  "& .MuiInputLabel-root.Mui-focused": {
+                    color: "#e14eca",
+                  },
+                }}
               />
             </Grid>
             <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label="Email address"
-                defaultValue="mike@email.com"
-                sx={{ input: { color: "white" } }}
+                placeholder="Enter email address"
+                sx={{
+                  input: { color: "white" },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "#e14eca",
+                  },
+                  "& .MuiInputLabel-root.Mui-focused": {
+                    color: "#e14eca",
+                  },
+                }}
               />
             </Grid>
             <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label="First Name"
-                defaultValue="Mike"
-                sx={{ input: { color: "white" } }}
+                placeholder="Enter first name"
+                sx={{
+                  input: { color: "white" },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "#e14eca",
+                  },
+                  "& .MuiInputLabel-root.Mui-focused": {
+                    color: "#e14eca",
+                  },
+                }}
               />
             </Grid>
             <Grid item xs={12} sm={6}>
               <TextField
                 fullWidth
                 label="Last Name"
-                defaultValue="Andrew"
-                sx={{ input: { color: "white" } }}
+                placeholder="Enter last name"
+                sx={{
+                  input: { color: "white" },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "#e14eca",
+                  },
+                  "& .MuiInputLabel-root.Mui-focused": {
+                    color: "#e14eca",
+                  },
+                }}
               />
             </Grid>
             <Grid item xs={12}>
               <TextField
                 fullWidth
                 label="Address"
-                defaultValue="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
-                sx={{ input: { color: "white" } }}
+                placeholder="Enter address"
+                sx={{
+                  input: { color: "white" },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "#e14eca",
+                  },
+                  "& .MuiInputLabel-root.Mui-focused": {
+                    color: "#e14eca",
+                  },
+                }}
               />
             </Grid>
             <Grid item xs={12} sm={4}>
               <TextField
                 fullWidth
                 label="City"
-                defaultValue="New York"
-                sx={{ input: { color: "white" } }}
+                placeholder="Enter city"
+                sx={{
+                  input: { color: "white" },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "#e14eca",
+                  },
+                  "& .MuiInputLabel-root.Mui-focused": {
+                    color: "#e14eca",
+                  },
+                }}
               />
             </Grid>
             <Grid item xs={12} sm={4}>
               <TextField
                 fullWidth
                 label="Country"
-                defaultValue="United States"
-                sx={{ input: { color: "white" } }}
+                placeholder="Enter country"
+                sx={{
+                  input: { color: "white" },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "#e14eca",
+                  },
+                  "& .MuiInputLabel-root.Mui-focused": {
+                    color: "#e14eca",
+                  },
+                }}
               />
             </Grid>
             <Grid item xs={12} sm={4}>
               <TextField
                 fullWidth
                 label="Postal Code"
-                defaultValue="ZIP Code"
-                sx={{ input: { color: "white" } }}
+                placeholder="Enter postal code"
+                sx={{
+                  input: { color: "white" },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "#e14eca",
+                  },
+                  "& .MuiInputLabel-root.Mui-focused": {
+                    color: "#e14eca",
+                  },
+                }}
               />
             </Grid>
             <Grid item xs={12}>
@@ -105,8 +177,16 @@ const UserProfile = () => {
                 multiline
                 rows={4}
                 label="About Me"
-                defaultValue="Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo."
-                sx={{ input: { color: "white" } }}
+                placeholder="Enter information about yourself"
+                sx={{
+                  input: { color: "white" },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "#e14eca",
+                  },
+                  "& .MuiInputLabel-root.Mui-focused": {
+                    color: "#e14eca",
+                  },
+                }}
               />
             </Grid>
             <Grid item xs={12}>
@@ -170,12 +250,16 @@ const UserProfile = () => {
                 margin: "auto",
                 border: "4px solid #27293d",
                 boxShadow: "0 0 0 3px #e14eca",
+                "&:focus": {
+                  outline: "4px solid #ba54f5",
+                },
               }}
-              alt="Mike Andrew"
+              alt="John Doe"
               src="/path-to-your-image.jpg"
+              tabIndex={0}
             />
             <Typography variant="h5" sx={{ mt: 2, fontWeight: "bold" }}>
-              Mike Andrew
+              John Doe
             </Typography>
             <Typography variant="subtitle1" sx={{ color: "#e14eca" }}>
               CEO / Co-Founder
