@@ -1,7 +1,15 @@
 import React from "react";
-import { List, ListItem, ListItemText, Divider, Checkbox } from "@mui/material";
+import {
+  List,
+  ListItem,
+  ListItemText,
+  Divider,
+  Checkbox,
+  IconButton,
+} from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { pink } from "@mui/material/colors";
+import EditIcon from "@mui/icons-material/Edit";
 
 const StyledListItem = styled(ListItem)(({ theme }) => ({
   "&.MuiListItem-root": {
@@ -20,6 +28,10 @@ const tasks = [
 ];
 
 const TaskList = () => {
+  const handleEditClick = (task) => {
+    console.log(`Edit ${task.text}`);
+  };
+
   return (
     <div className="bg-[#27293d] p-6 rounded-lg text-white w-full lg:w-6/12">
       <h3 className="text-xl mb-4">Tasks</h3>
@@ -37,6 +49,14 @@ const TaskList = () => {
                 }}
               />
               <ListItemText primary={task.text} />
+              <div className="flex w-6/12 justify-end items-center cursor-pointer">
+                <IconButton
+                  onClick={() => handleEditClick(task)}
+                  color="inherit"
+                >
+                  <EditIcon />
+                </IconButton>
+              </div>
             </StyledListItem>
             {index < tasks.length - 1 && <Divider />}
           </React.Fragment>
