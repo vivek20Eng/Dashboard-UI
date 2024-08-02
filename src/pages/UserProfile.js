@@ -12,7 +12,8 @@ import { Facebook, Twitter, Language } from "@mui/icons-material";
 
 const UserProfile = () => {
   return (
-    <Grid container spacing={3}>
+    <Grid container spacing={3} sx={{
+      mt:2,}}>
       <Grid item xs={12} md={8}>
         <Paper
           sx={{
@@ -22,7 +23,8 @@ const UserProfile = () => {
             boxShadow: "0 4px 10px rgba(0, 0, 0, 0.3)",
           }}
         >
-          <Typography variant="h6" gutterBottom>
+          <Typography variant="h6" gutterBottom sx={{
+      mb:4,}}>
             Edit Profile
           </Typography>
           <Grid container spacing={2}>
@@ -253,7 +255,7 @@ const UserProfile = () => {
               height: "100px",
               background: "linear-gradient(to left top, #e14eca, #ba54f5)",
               transform: "skewY(-5deg)",
-              transformOrigin: "top left",
+              transformOrigin: "top right",
             }}
           />
           <Box sx={{ position: "relative", textAlign: "center", pt: 5 }}>
@@ -269,7 +271,7 @@ const UserProfile = () => {
                 },
               }}
               alt="John Doe"
-              src="/path-to-your-image.jpg"
+              src="/.jpg"
               tabIndex={0}
             />
             <Typography variant="h5" sx={{ mt: 2, fontWeight: "bold" }}>
