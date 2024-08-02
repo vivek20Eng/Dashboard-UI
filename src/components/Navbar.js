@@ -27,7 +27,7 @@ const Navbar = ({ onMenuClick }) => {
   return (
     <AppBar
       position="fixed"
-      style={{ backgroundColor: "#1e1e2f" }}
+      sx={{ backgroundColor: "#1e1e2f" }}
       className="shadow-md w-full h-[5rem] justify-center"
     >
       <Toolbar className="flex justify-between items-center">

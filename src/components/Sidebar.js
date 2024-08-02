@@ -33,12 +33,12 @@ const Sidebar = ({ open, onClose }) => {
   const menuItems = [
     {
       text: "Dashboard",
-      icon: <DashboardIcon style={{ color: "white" }} />,
+      icon: <DashboardIcon sx={{ color: "white" }} />,
       path: "/",
     },
     {
       text: "User Profile",
-      icon: <UserProfileIcon style={{ color: "white" }} />,
+      icon: <UserProfileIcon sx={{ color: "white" }} />,
       path: "/user-profile",
     },
   ];
@@ -56,11 +56,9 @@ const Sidebar = ({ open, onClose }) => {
         },
       }}
     >
-      <div
-        style={{ display: "flex", justifyContent: "flex-end", padding: "8px" }}
-      >
+      <div className="flex justify-end p-2">
         <IconButton onClick={onClose}>
-          <CloseIcon style={{ color: "white" }} />
+          <CloseIcon sx={{ color: "white" }} />
         </IconButton>
       </div>
       <List>
