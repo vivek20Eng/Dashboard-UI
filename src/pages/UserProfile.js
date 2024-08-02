@@ -36,9 +36,10 @@ const UserProfile = () => {
                     disabled
                     sx={{
                       input: { color: "white" },
-                      "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                        borderColor: "#e14eca",
-                      },
+                      "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline":
+                        {
+                          borderColor: "#e14eca",
+                        },
                       "& .MuiInputLabel-root.Mui-focused": {
                         color: "#e14eca",
                       },
@@ -52,9 +53,10 @@ const UserProfile = () => {
                     placeholder="Enter username"
                     sx={{
                       input: { color: "white" },
-                      "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                        borderColor: "#e14eca",
-                      },
+                      "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline":
+                        {
+                          borderColor: "#e14eca",
+                        },
                       "& .MuiInputLabel-root.Mui-focused": {
                         color: "#e14eca",
                       },
@@ -68,9 +70,10 @@ const UserProfile = () => {
                     placeholder="Enter email address"
                     sx={{
                       input: { color: "white" },
-                      "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                        borderColor: "#e14eca",
-                      },
+                      "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline":
+                        {
+                          borderColor: "#e14eca",
+                        },
                       "& .MuiInputLabel-root.Mui-focused": {
                         color: "#e14eca",
                       },
@@ -86,9 +89,10 @@ const UserProfile = () => {
                 placeholder="Enter first name"
                 sx={{
                   input: { color: "white" },
-                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                    borderColor: "#e14eca",
-                  },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline":
+                    {
+                      borderColor: "#e14eca",
+                    },
                   "& .MuiInputLabel-root.Mui-focused": {
                     color: "#e14eca",
                   },
@@ -102,9 +106,10 @@ const UserProfile = () => {
                 placeholder="Enter last name"
                 sx={{
                   input: { color: "white" },
-                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                    borderColor: "#e14eca",
-                  },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline":
+                    {
+                      borderColor: "#e14eca",
+                    },
                   "& .MuiInputLabel-root.Mui-focused": {
                     color: "#e14eca",
                   },
@@ -118,9 +123,10 @@ const UserProfile = () => {
                 placeholder="Enter address"
                 sx={{
                   input: { color: "white" },
-                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                    borderColor: "#e14eca",
-                  },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline":
+                    {
+                      borderColor: "#e14eca",
+                    },
                   "& .MuiInputLabel-root.Mui-focused": {
                     color: "#e14eca",
                   },
@@ -134,9 +140,10 @@ const UserProfile = () => {
                 placeholder="Enter city"
                 sx={{
                   input: { color: "white" },
-                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                    borderColor: "#e14eca",
-                  },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline":
+                    {
+                      borderColor: "#e14eca",
+                    },
                   "& .MuiInputLabel-root.Mui-focused": {
                     color: "#e14eca",
                   },
@@ -150,9 +157,10 @@ const UserProfile = () => {
                 placeholder="Enter country"
                 sx={{
                   input: { color: "white" },
-                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                    borderColor: "#e14eca",
-                  },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline":
+                    {
+                      borderColor: "#e14eca",
+                    },
                   "& .MuiInputLabel-root.Mui-focused": {
                     color: "#e14eca",
                   },
@@ -166,9 +174,10 @@ const UserProfile = () => {
                 placeholder="Enter postal code"
                 sx={{
                   input: { color: "white" },
-                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                    borderColor: "#e14eca",
-                  },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline":
+                    {
+                      borderColor: "#e14eca",
+                    },
                   "& .MuiInputLabel-root.Mui-focused": {
                     color: "#e14eca",
                   },
@@ -184,9 +193,10 @@ const UserProfile = () => {
                 placeholder="Enter information about yourself"
                 sx={{
                   input: { color: "white" },
-                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
-                    borderColor: "#e14eca",
-                  },
+                  "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline":
+                    {
+                      borderColor: "#e14eca",
+                    },
                   "& .MuiInputLabel-root.Mui-focused": {
                     color: "#e14eca",
                   },
