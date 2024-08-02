@@ -19,7 +19,7 @@
    git clone https://github.com/vivek20Eng/Dashboard-UI.git
 2. Clone the repository:
    ```bash  
-    cd projectname
+    cd Dashboard-UI
 3. Clone the repository:
    ```bash  
     npm install
